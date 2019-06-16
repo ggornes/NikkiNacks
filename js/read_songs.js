@@ -256,15 +256,15 @@ function getMore() {
 				param2 += artistNameArr[0];
 			}
 
-			songs[i].spotifyURL = "https://aspi.spotify.com/v1/search?q="+param1+"&type=track";
+			songs[i].spotifyURL = "https://api.spotify.com/v1/search?q="+param1+"&type=track";
 
-			songs[i].spotifyURL2 = "https://aspi.spotify.com/v1/search?q=track:"+param1+"%20artist:"+param2+"&type=track";
+			songs[i].spotifyURL2 = "https://api.spotify.com/v1/search?q=track:"+param1+"%20artist:"+param2+"&type=track";
 
 
 
 			$.ajaxSetup({
   				headers : {
-    						'Authorization' : 'Bearer BQD7D20tmkYRAe9jhhCTZ3nnst5o91xMPa19M0jITjb4g-zRdPmUPhbabIFtqFUNg7uMgSFitM0PhO3RCViFWUpenfqdXbdbw1FVjPuiRJyTJZuThgMCeEhw57NlnGwx6hmRBqG_fCgX2JM54efFkCuoIjl3_1mapUQLO-MCXux9tzWlNuxsFZaq'
+    						'Authorization' : 'Bearer token'
   				}
 			});
 			
