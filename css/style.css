@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	font-family: 'Exo 2', sans-serif;
+}
+
+body {
+	background-color: #15223a;
+	color: #CEDBF2;
+	/*
+	background-image: url(../img/bg2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+
+}
+
+#outer {
+
+	max-width: 1020px;
+	margin: 0px auto;
+}
+
+header {
+	/*background-image: url("https://fontmeme.com/permalink/190613/82479f82e80b172855dc0bbb37dd6083.png");
+	background-repeat: no-repeat;*/
+	text-align: center;
+
+
+}
+
+header img {
+	display: inline-block;
+}
+
+
+/****************************************************************************/
+nav {
+	margin: 1%;
+	background-color: rgba(59, 50, 84, 0.39);
+	/*background-color: rgba(194, 0, 0, 1);*/
+	overflow: hidden;
+	/*border: solid 1px #ccf3d8;*/
+	border-radius: 20px;
+	max-width: 100%;
+	text-align: center;
+	
+
+	/*background-image: url(../img/sb6.png);*/
+}
+
+nav a {
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+	color: #05ba71;
+	font-size: 1.2em;
+	font-weight: bold;
+	
+	font-size: 1.5em;
+	padding-left: 15px;
+
+}
+
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+
+
+}
+
+.dropdown .dropbtn {
+	border: none;
+	outline: none;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0;
+	color: #00ee4c;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	background-color: rgba(0,111,92,0.95);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	padding: 14px 16px;
+	display: block;
+	text-align: left;
+}
+
+
+
+nav a:hover, .dropdown:hover .dropbtn {
+  background-color:  rgba(0,111,92,0.95);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(0,111,92,0.95);
+}
+
+
+/****************************************************************************/
+
+input[type=textbox] {
+	width: 25px;
+	border: 4px solid rgb(0,64,73);
+    border-radius: 5px;
+}
+
+main {
+	
+	/*border: 10px solid orange;*/
+}
+
+footer {
+	/*border: 5px solid purple;*/
+	background-color: rgba(26, 26, 28, 0.3);
+	text-align: center;
+}
+
+#quote {
+	background-color: #242844;
+}
+
+div.movie p{
+	padding-left: 10px;
+	margin: 5px;
+}
+
+p.movie-title {
+	font-size: 2em;
+	color: #62b99ed1;
+
+}
+
+p.movie-director {
+	font-size: 0.9em;
+}
+
+div.song p{
+	padding-left: 10px;
+	margin: 5px;
+}
+
+p.song-title {
+	font-size: 2em;
+	color: #62b99ed1;
+}
+
+p.song-artist {
+	font-size: 1.1em;
+	color: #b36b6b;
+}
+
+
+#imdb-score {
+
+}
+
+#metascore-score {
+	margin-left: 70px;
+	padding: 2px;
+	color: #fff;
+	background-color: #29731c;
+}
+
+#movie-year {
+	font-size: 0.5em;
+	padding-left: 10px;
+}
+
+#song-year {
+	font-size: 0.5em;
+	padding-left: 10px;
+}
+
+
+#imdb-star {
+	display: inline;
+	fill: #c39400;
+}
+
+div .movie {
+	/*border: 1px solid red;*/
+	width: 85%;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	background-color: rgba(26, 26, 28, 0.3)
+}
+
+div .song {
+	/*border: 1px solid red;*/
+	width: 85%;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	background-color: rgba(26, 26, 28, 0.3)
+}
+
+#get-quote {
+	width: 85%;
+}
+
+div .poster {
+	float: left;
+	margin-right: 35px;
+}
+
+div .cover {
+	float: left;
+	margin-right: 35px;
+}
+
+div .info {
+	padding-left: 15px;
+}
+
+.btn-add {
+	border-radius: 50%;
+	background-color: #03ac75;
+	color: white;
+	font-weight: bold;
+	height: 30px;
+	width: 30px;
+}
+
+.btn-remove {
+	border-radius: 50%;
+	background-color: #b94108db;
+	color: white;
+	font-weight: bold;
+	height: 30px;
+	width: 30px;
+}
+
+.clearfloat {
+	font-size: 0px;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: none;
+	height: 0px;
+	width: 0px;
+	border: 0px none;
+	line-height: 0px;
+}
+
+
+
